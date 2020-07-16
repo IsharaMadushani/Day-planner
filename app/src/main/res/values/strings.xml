@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Day Planner</string>
+    <string name="title_activity_meetings">MeetingsActivity</string>
+    <string name="title_activity_doctor_appointment">DoctorAppointmentActivity</string>
+    <string name="title_activity_office_task">OfficeTaskActivity</string>
+    <string name="title_activity_office_task_add">OfficeTaskAddActivity</string>
+    <string name="title_activity_special_contacts">SpecialContactsActivity</string>
+</resources>

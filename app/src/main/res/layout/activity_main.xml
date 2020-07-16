@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="@color/white"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <!--<TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Name here"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:padding="10dp"
+        android:id="@+id/my_name"></TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Email Here"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:padding="10dp"
+        android:id="@+id/my_email"></TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mobile Here"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:padding="10dp"
+        android:id="@+id/my_mobile"></TextView> -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="5dp">
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent">
+
+        </TextView>
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="match_parent"
+            android:src="@drawable/home">
+
+        </ImageView>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent">
+
+        </TextView>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="5dp">
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="5"
+            android:text="OFFICE MEETINGS"
+            android:background="@color/lightblue"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:layout_margin="5dp"
+            android:onClick="meetings">
+        </Button>
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="match_parent"
+            android:src="@drawable/meetingss">
+
+        </ImageView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="2dp">
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="match_parent"
+            android:src="@drawable/doctors">
+
+        </ImageView>
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="5"
+            android:text="DOCTOR APPOINTMENT"
+            android:background="@color/lightblue"
+            android:textColor="#fff"
+            android:textSize="20sp"
+            android:layout_margin="5dp"
+            android:onClick="appointment">
+        </Button>
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="2dp">
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="5"
+            android:text="OFFICE TASK"
+            android:background="@color/lightblue"
+            android:textColor="#fff"
+            android:textSize="20sp"
+            android:layout_margin="5dp"
+            android:onClick="tasks">
+        </Button>
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="match_parent"
+            android:src="@drawable/solutions">
+
+        </ImageView>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="2dp">
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="match_parent"
+            android:src="@drawable/contact">
+
+        </ImageView>
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="5"
+            android:text="SPECIAL CONTACTS"
+            android:background="@color/lightblue"
+            android:textColor="#fff"
+            android:textSize="20sp"
+            android:layout_margin="5dp"
+            android:onClick="contacts">
+        </Button>
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="2dp">
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="5"
+            android:text="MY TARGETS"
+            android:background="@color/lightblue"
+            android:textColor="#fff"
+            android:textSize="20sp"
+            android:layout_margin="5dp"
+            android:onClick="contacts">
+        </Button>
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="match_parent"
+            android:src="@drawable/targets">
+
+        </ImageView>
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="2dp">
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="match_parent"
+            android:src="@drawable/discuss">
+
+        </ImageView>
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="5"
+            android:text="OFFICE DISCUSSIONS"
+            android:background="@color/lightblue"
+            android:textColor="#fff"
+            android:textSize="20sp"
+            android:layout_margin="5dp"
+            android:onClick="contacts">
+        </Button>
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="2dp">
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="5"
+            android:text="MY PROFILE"
+            android:background="@color/lightblue"
+            android:textColor="#fff"
+            android:textSize="20sp"
+            android:layout_margin="5dp"
+            android:onClick="profile">
+        </Button>
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="match_parent"
+            android:src="@drawable/prof">
+
+        </ImageView>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp">
+
+    </LinearLayout>
+
+</LinearLayout>

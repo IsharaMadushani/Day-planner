@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15dp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="About"
+            android:textSize="25sp"
+            android:padding="10dp"
+            android:textColor="@color/black"
+            android:id="@+id/lbl_meeting_name">
+
+        </TextView>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Date : "
+                android:textSize="15sp"
+                android:padding="10dp"
+                android:textColor="@color/black">
+
+            </TextView>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:id="@+id/lbl_meeting_id">
+
+            </TextView>
+            <TextView
+                android:id="@+id/lbl_meeting_date"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:text="Date"
+                android:textSize="15sp"
+                android:padding="10dp"
+                android:textColor="@color/colorPrimary">
+
+            </TextView>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Time : "
+                android:textSize="15sp"
+                android:padding="10dp"
+                android:textColor="@color/black">
+
+            </TextView>
+            <TextView
+                android:id="@+id/lbl_meeting_time"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:text="Date"
+                android:textSize="15sp"
+                android:padding="10dp"
+                android:textColor="@color/colorPrimary">
+
+            </TextView>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/lbl_meeting_person"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="With"
+                android:textSize="15sp"
+                android:padding="10dp"
+                android:textColor="@color/black">
+
+            </TextView>
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="complete"
+                android:background="@color/colorAccent"
+                android:textColor="@color/cardview_light_background"
+                android:onClick="complete">
+
+            </Button>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
